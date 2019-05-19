@@ -5,9 +5,9 @@ The objective is to rewrite the Bike Sharing analysis done in the Python for Sta
 Predict the total number of bicycle users on an hourly basis. https://www.kaggle.com/marklvl/bike-sharing-dataset/downloads/Bike-Sharing-Dataset.zip/1 (Overview: https://www.kaggle.com/marklvl/bike-sharing-dataset/home)
 
 ### TASK DESCRIPTION ####
-**Training data:** whole 2011 and first 3 quarters of 2012.
-**Test data:** 4th quarter of 2012. Do not fit your models with these data! They should just be used to see how good/bad your model predictions are.
-**Error metric:** R2 score & RMSE
+- **Training data:** whole 2011 and first 3 quarters of 2012.
+- **Test data:** 4th quarter of 2012. Do not fit your models with these data! They should just be used to see how good/bad your model predictions are.
+- **Error metric:** R2 score & RMSE
 
 **Features to use:** at least the ones present in the data (except for cnt). Do not use both casual and registered columns, as cnt=casual+registered (you may use one, but not both). Additionally, you can use other sources of data you deem appropriate to predict from extra features.
 
